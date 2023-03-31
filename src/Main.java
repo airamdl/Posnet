@@ -3,7 +3,7 @@ public class Main {
      * @author airamdl
      */
     public static void main(String[] args) {
-        System.out.println("");
+        System.out.println();
         Postnet postnet = new Postnet();
         Titular t = new Titular("Roberto", "de león", "9845877E", "631954837","robertdl2001@gmail.com");
         TarjetaCredito tarjetaCredito= new TarjetaCredito("FakeBank", "12255533344", 14000, EntidadFinanciera.BIRZA, t );

@@ -4,7 +4,13 @@ public class Postnet {
     public static final int MAX_CANT_CUOTAS = 6;
 
 
-
+    /**
+     *
+     * @param tarjetaCredito
+     * @param montoAAbonar
+     * @param cantCuotas
+     * @return ticket
+     */
     public Ticket efectuarPago(TarjetaCredito tarjetaCredito, double montoAAbonar, int cantCuotas) {
         /**
          * @author Airamdl
@@ -23,6 +29,13 @@ public class Postnet {
         return ticket;
     }
 
+    /**
+     *
+     * @param tarjetaCredito
+     * @param monto
+     * @param cant
+     * @return boolean que todos los parámetros sean true
+     */
     private boolean datosValidos(TarjetaCredito tarjetaCredito, double monto, int cant){
         boolean esTarjetaValida= tarjetaCredito != null;
         boolean esMontoValido= monto>0;
@@ -30,6 +43,11 @@ public class Postnet {
         return esTarjetaValida&&esMontoValido&&cantCuotaValida;
     }
 
+    /**
+     *
+     * @param cantCuotas
+     * @return double El cargo según las cuotas elegidas
+     */
     private double recargoSegunCuotas(int cantCuotas){
         return (cantCuotas-1)* RECARGA_POR_CUOTA;
     }
