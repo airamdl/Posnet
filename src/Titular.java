@@ -1,3 +1,6 @@
+/**
+ * Titular de la tarjeta
+ */
 public class Titular {
     private String nombre;
     private String apellido;

@@ -1,3 +1,6 @@
+/**
+ * Posnet que se utiliza para los pagos y generar tickets
+ */
 public class Postnet {
     public static final double RECARGA_POR_CUOTA = 0.03;
     public static final int MIN_CANT_CUOTAS = 1;

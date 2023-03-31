@@ -1,3 +1,6 @@
+/**
+ * Clase Main
+ */
 public class Main {
     /**
      * @author airamdl

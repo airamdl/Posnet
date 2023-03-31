@@ -1,6 +1,10 @@
 /**
  * @author Airam
  */
+
+/**
+ * Tarjeta de credito del titular con sus respectivos datos
+ */
 public class TarjetaCredito {
    private String entidadBancaria;
    private String numero;

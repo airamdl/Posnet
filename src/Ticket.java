@@ -1,3 +1,6 @@
+/**
+ * Ticket generado con la compra realizada con el posnet
+ */
 public class Ticket {
     /**
      * @author airam
