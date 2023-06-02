@@ -30,7 +30,7 @@ Ticket tickedGenerado = postnet.efectuarPago(tarjetaCredito, montoAAbonar[ doubl
 
 ## Javadoc
 
-C:/Users/1daw/Desktop/javadoc/package-summary.html
+[C:/Users/1daw/Desktop/javadoc/package-summary.html](https://github.com/airamdl/Posnet/blob/master/javadoc/index.html)
 
 
 ## Contributing
